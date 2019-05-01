@@ -5,6 +5,6 @@ install:
   - pip install -q -r requirements.txt codecov
  script:
   - flake8
-  - pytest libpythonpro --cov
+  - pytest integrations --cov
 after_success:
   - codecov
